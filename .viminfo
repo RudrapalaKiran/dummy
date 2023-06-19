@@ -12,7 +12,9 @@
 ~H
 # Command Line History (newest to oldest):
 :wq
-|2,0,1686311206,,"wq"
+|2,0,1687140560,,"wq"
+:%d
+|2,0,1687140554,,"%d"
 :q!
 |2,0,1686309920,,"q!"
 
@@ -25,32 +27,110 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+""1	LINE	0
+	 hi all 
+	Branch name pattern
+	master
+	Protect matching branches
+	Require a pull request before merging
+	When enabled, all commits must be made to a non-protected branch and submitted via a pull request before they can be merged into a branch that matches this rule.
+	Require approvals
+	When enabled, pull requests targeting a matching branch require a number of approvals and no changes requested before they can be merged.
+	Dismiss stale pull request approvals when new commits are pushed
+	New reviewable commits pushed to a matching branch will dismiss pull request review approvals.
+	Require review from Code Owners
+	Require an approved review in pull requests including files with a designated code owner.
+	Require approval of the most recent reviewable push
+	Whether the most recent reviewable push must be approved by someone other than the person who pushed it.
+	Require status checks to pass before merging
+	268
+<Choose which status checks must pass before branches can be merged into a branch that matches this rule. When enabled, commits must first be pushed to another branch, then merged or pushed directly to a branch that matches this rule after status checks have passed.
+	Require conversation resolution before merging
+	When enabled, all conversations on code must be resolved before a pull request can be merged into a branch that matches this rule. Learn more.
+	Require signed commits
+	Commits pushed to matching branches must have verified signatures.
+	Require linear history
+	Prevent merge commits from being pushed to matching branches.
+	Require deployments to succeed before merging
+	Choose which environments must be successfully deployed to before branches can be merged into a branch that matches this rule.
+	Lock branch
+	Branch is read-only. Users cannot push to the branch.
+	Do not allow bypassing the above settings
+	The above settings will apply to administrators and custom roles with the "bypass branch protections" permission.
+	Rules applied to everyone including administrators
+	Allow force pushes
+	Permit force pushes for all users with push access.
+	
+	Allow deletions
+	Allow users with push access to delete matching branches.
+|3,1,1,1,34,0,1687140554," hi all ","Branch name pattern","master","Protect matching branches","Require a pull request before merging","When enabled, all commits must be made to a non-protected branch and submitted via a pull request before they can be merged into a branch that matches this rule.","Require approvals","When enabled, pull requests targeting a matching branch require a number of approvals and no changes requested before they can be merged.",>66
+|<"Dismiss stale pull request approvals when new commits are pushed","New reviewable commits pushed to a matching branch will dismiss pull request review approvals.","Require review from Code Owners","Require an approved review in pull requests including files with a designated code owner.","Require approval of the most recent reviewable push","Whether the most recent reviewable push must be approved by someone other than the person who pushed it.",>46
+|<"Require status checks to pass before merging","Choose which status checks must pass before branches can be merged into a branch that matches this rule. When enabled, commits must first be pushed to another branch, then merged or pushed directly to a branch that matches this rule after status checks have passed.","Require conversation resolution before merging",>144
+|<"When enabled, all conversations on code must be resolved before a pull request can be merged into a branch that matches this rule. Learn more.","Require signed commits","Commits pushed to matching branches must have verified signatures.","Require linear history","Prevent merge commits from being pushed to matching branches.","Require deployments to succeed before merging",>128
+|<"Choose which environments must be successfully deployed to before branches can be merged into a branch that matches this rule.","Lock branch","Branch is read-only. Users cannot push to the branch.","Do not allow bypassing the above settings","The above settings will apply to administrators and custom roles with the \"bypass branch protections\" permission.","Rules applied to everyone including administrators","Allow force pushes","Permit force pushes for all users with push access.",>2
+|<"","Allow deletions","Allow users with push access to delete matching branches."
 
 # File marks:
-'0  2  8  ~/surya
-|4,48,2,8,1686311206,"~/surya"
-'1  1  36  ~/kiran
-|4,49,1,36,1686311110,"~/kiran"
-'2  1  36  ~/kiran
-|4,50,1,36,1686311064,"~/kiran"
-'3  1  35  ~/file1
-|4,51,1,35,1686311034,"~/file1"
-'4  1  35  ~/file1
-|4,52,1,35,1686311013,"~/file1"
-'5  1  0  ~/.git/COMMIT_EDITMSG
-|4,53,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
-'6  1  0  ~/.git/MERGE_MSG
-|4,54,1,0,1686309476,"~/.git/MERGE_MSG"
-'7  1  0  ~/.git/MERGE_MSG
-|4,55,1,0,1686296329,"~/.git/MERGE_MSG"
-'8  1  0  ~/.git/MERGE_MSG
-|4,56,1,0,1686296198,"~/.git/MERGE_MSG"
-'9  1  0  ~/.git/MERGE_MSG
-|4,57,1,0,1686296198,"~/.git/MERGE_MSG"
+'0  1  39  ~/index.txt
+|4,48,1,39,1687140560,"~/index.txt"
+'1  34  56  ~/index.txt
+|4,49,34,56,1687139122,"~/index.txt"
+'2  1  7  ~/index.txt
+|4,50,1,7,1687138722,"~/index.txt"
+'3  1  7  ~/index.txt
+|4,51,1,7,1687138722,"~/index.txt"
+'4  1  7  ~/index.txt
+|4,52,1,7,1687138722,"~/index.txt"
+'5  1  7  ~/index.txt
+|4,53,1,7,1687138722,"~/index.txt"
+'6  2  8  ~/surya
+|4,54,2,8,1686311206,"~/surya"
+'7  1  36  ~/kiran
+|4,55,1,36,1686311110,"~/kiran"
+'8  1  36  ~/kiran
+|4,56,1,36,1686311064,"~/kiran"
+'9  1  35  ~/file1
+|4,57,1,35,1686311034,"~/file1"
 
 # Jumplist (newest first):
+-'  1  39  ~/index.txt
+|4,39,1,39,1687140560,"~/index.txt"
+-'  34  56  ~/index.txt
+|4,39,34,56,1687139122,"~/index.txt"
+-'  1  7  ~/index.txt
+|4,39,1,7,1687139110,"~/index.txt"
+-'  1  7  ~/index.txt
+|4,39,1,7,1687138722,"~/index.txt"
 -'  2  8  ~/surya
 |4,39,2,8,1686311206,"~/surya"
+-'  2  8  ~/surya
+|4,39,2,8,1686311206,"~/surya"
+-'  2  8  ~/surya
+|4,39,2,8,1686311206,"~/surya"
+-'  2  8  ~/surya
+|4,39,2,8,1686311206,"~/surya"
+-'  2  8  ~/surya
+|4,39,2,8,1686311206,"~/surya"
+-'  2  8  ~/surya
+|4,39,2,8,1686311206,"~/surya"
+-'  2  8  ~/surya
+|4,39,2,8,1686311206,"~/surya"
+-'  2  8  ~/surya
+|4,39,2,8,1686311206,"~/surya"
+-'  1  0  ~/surya
+|4,39,1,0,1686311188,"~/surya"
+-'  1  0  ~/surya
+|4,39,1,0,1686311188,"~/surya"
+-'  1  0  ~/surya
+|4,39,1,0,1686311188,"~/surya"
+-'  1  0  ~/surya
+|4,39,1,0,1686311188,"~/surya"
+-'  1  0  ~/surya
+|4,39,1,0,1686311188,"~/surya"
+-'  1  0  ~/surya
+|4,39,1,0,1686311188,"~/surya"
+-'  1  0  ~/surya
+|4,39,1,0,1686311188,"~/surya"
 -'  1  0  ~/surya
 |4,39,1,0,1686311188,"~/surya"
 -'  1  36  ~/kiran
@@ -58,6 +138,62 @@
 -'  1  36  ~/kiran
 |4,39,1,36,1686311110,"~/kiran"
 -'  1  36  ~/kiran
+|4,39,1,36,1686311110,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311110,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311110,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311110,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311110,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311110,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311110,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311110,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311110,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311110,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311110,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311110,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311110,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311110,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311064,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311064,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311064,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311064,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311064,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311064,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311064,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311064,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311064,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311064,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311064,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311064,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311064,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311064,"~/kiran"
+-'  1  36  ~/kiran
 |4,39,1,36,1686311064,"~/kiran"
 -'  1  36  ~/kiran
 |4,39,1,36,1686311064,"~/kiran"
@@ -78,179 +214,95 @@
 -'  1  35  ~/file1
 |4,39,1,35,1686311034,"~/file1"
 -'  1  35  ~/file1
-|4,39,1,35,1686311013,"~/file1"
+|4,39,1,35,1686311034,"~/file1"
 -'  1  35  ~/file1
-|4,39,1,35,1686311013,"~/file1"
+|4,39,1,35,1686311034,"~/file1"
 -'  1  35  ~/file1
-|4,39,1,35,1686311013,"~/file1"
+|4,39,1,35,1686311034,"~/file1"
 -'  1  35  ~/file1
-|4,39,1,35,1686311013,"~/file1"
+|4,39,1,35,1686311034,"~/file1"
 -'  1  35  ~/file1
-|4,39,1,35,1686311013,"~/file1"
+|4,39,1,35,1686311034,"~/file1"
 -'  1  35  ~/file1
-|4,39,1,35,1686311013,"~/file1"
+|4,39,1,35,1686311034,"~/file1"
 -'  1  35  ~/file1
-|4,39,1,35,1686311013,"~/file1"
+|4,39,1,35,1686311034,"~/file1"
 -'  1  35  ~/file1
-|4,39,1,35,1686311013,"~/file1"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
 
 # History of marks within files (newest to oldest):
+
+> ~/index.txt
+	*	1687140559	0
+	"	1	39
+	^	1	40
+	.	1	39
+	+	1	8
+	+	1	39
 
 > ~/surya
 	*	1686311204	0
