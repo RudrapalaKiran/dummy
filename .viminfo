@@ -12,7 +12,7 @@
 ~H
 # Command Line History (newest to oldest):
 :wq
-|2,0,1686311206,,"wq"
+|2,0,1687139122,,"wq"
 :q!
 |2,0,1686309920,,"q!"
 
@@ -27,30 +27,48 @@
 # Registers:
 
 # File marks:
-'0  2  8  ~/surya
-|4,48,2,8,1686311206,"~/surya"
-'1  1  36  ~/kiran
-|4,49,1,36,1686311110,"~/kiran"
-'2  1  36  ~/kiran
-|4,50,1,36,1686311064,"~/kiran"
-'3  1  35  ~/file1
-|4,51,1,35,1686311034,"~/file1"
-'4  1  35  ~/file1
-|4,52,1,35,1686311013,"~/file1"
-'5  1  0  ~/.git/COMMIT_EDITMSG
-|4,53,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
-'6  1  0  ~/.git/MERGE_MSG
-|4,54,1,0,1686309476,"~/.git/MERGE_MSG"
-'7  1  0  ~/.git/MERGE_MSG
-|4,55,1,0,1686296329,"~/.git/MERGE_MSG"
-'8  1  0  ~/.git/MERGE_MSG
-|4,56,1,0,1686296198,"~/.git/MERGE_MSG"
+'0  34  56  ~/index.txt
+|4,48,34,56,1687139122,"~/index.txt"
+'1  1  7  ~/index.txt
+|4,49,1,7,1687138722,"~/index.txt"
+'2  1  7  ~/index.txt
+|4,50,1,7,1687138722,"~/index.txt"
+'3  2  8  ~/surya
+|4,51,2,8,1686311206,"~/surya"
+'4  1  36  ~/kiran
+|4,52,1,36,1686311110,"~/kiran"
+'5  1  36  ~/kiran
+|4,53,1,36,1686311064,"~/kiran"
+'6  1  35  ~/file1
+|4,54,1,35,1686311034,"~/file1"
+'7  1  35  ~/file1
+|4,55,1,35,1686311013,"~/file1"
+'8  1  0  ~/.git/COMMIT_EDITMSG
+|4,56,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
 '9  1  0  ~/.git/MERGE_MSG
-|4,57,1,0,1686296198,"~/.git/MERGE_MSG"
+|4,57,1,0,1686309476,"~/.git/MERGE_MSG"
 
 # Jumplist (newest first):
+-'  34  56  ~/index.txt
+|4,39,34,56,1687139122,"~/index.txt"
+-'  1  7  ~/index.txt
+|4,39,1,7,1687139110,"~/index.txt"
+-'  1  7  ~/index.txt
+|4,39,1,7,1687138722,"~/index.txt"
 -'  2  8  ~/surya
 |4,39,2,8,1686311206,"~/surya"
+-'  2  8  ~/surya
+|4,39,2,8,1686311206,"~/surya"
+-'  2  8  ~/surya
+|4,39,2,8,1686311206,"~/surya"
+-'  2  8  ~/surya
+|4,39,2,8,1686311206,"~/surya"
+-'  1  0  ~/surya
+|4,39,1,0,1686311188,"~/surya"
+-'  1  0  ~/surya
+|4,39,1,0,1686311188,"~/surya"
+-'  1  0  ~/surya
+|4,39,1,0,1686311188,"~/surya"
 -'  1  0  ~/surya
 |4,39,1,0,1686311188,"~/surya"
 -'  1  36  ~/kiran
@@ -58,6 +76,30 @@
 -'  1  36  ~/kiran
 |4,39,1,36,1686311110,"~/kiran"
 -'  1  36  ~/kiran
+|4,39,1,36,1686311110,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311110,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311110,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311110,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311110,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311110,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311064,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311064,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311064,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311064,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311064,"~/kiran"
+-'  1  36  ~/kiran
+|4,39,1,36,1686311064,"~/kiran"
+-'  1  36  ~/kiran
 |4,39,1,36,1686311064,"~/kiran"
 -'  1  36  ~/kiran
 |4,39,1,36,1686311064,"~/kiran"
@@ -78,6 +120,66 @@
 -'  1  35  ~/file1
 |4,39,1,35,1686311034,"~/file1"
 -'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311034,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311013,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311013,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311013,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311013,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311013,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311013,"~/file1"
+-'  1  35  ~/file1
 |4,39,1,35,1686311013,"~/file1"
 -'  1  35  ~/file1
 |4,39,1,35,1686311013,"~/file1"
@@ -93,6 +195,42 @@
 |4,39,1,35,1686311013,"~/file1"
 -'  1  35  ~/file1
 |4,39,1,35,1686311013,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311013,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311013,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311013,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311013,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311013,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311013,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311013,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311013,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311013,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311013,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311013,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311013,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311013,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311013,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311013,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311013,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311013,"~/file1"
+-'  1  35  ~/file1
+|4,39,1,35,1686311013,"~/file1"
 -'  1  0  ~/.git/COMMIT_EDITMSG
 |4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
 -'  1  0  ~/.git/COMMIT_EDITMSG
@@ -111,146 +249,16 @@
 |4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
 -'  1  0  ~/.git/COMMIT_EDITMSG
 |4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1686309920,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
--'  1  0  ~/.git/MERGE_MSG
-|4,39,1,0,1686309476,"~/.git/MERGE_MSG"
 
 # History of marks within files (newest to oldest):
+
+> ~/index.txt
+	*	1687139120	0
+	"	34	56
+	^	34	57
+	.	34	56
+	+	1	8
+	+	34	56
 
 > ~/surya
 	*	1686311204	0
